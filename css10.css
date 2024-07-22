@@ -1,0 +1,97 @@
+.formsum {
+    border: 1px solid rgb(231, 222, 222);
+    border-radius: 4px;
+    width: 800px;
+    margin: 100px 50px 50px 400px;
+    line-height: 30px;
+    background-color: #DDDDDD;
+}
+
+.form1 {
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px 10px 20px 70px;
+    background-color: rgb(223, 238, 233);
+    padding: 10px;
+}
+
+.nameon {
+    display: flex;
+    gap: 10px;
+}
+
+.allname {
+    display: flex;
+    gap: 10px;
+}
+
+.name-field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+input[type="text"] {
+
+    border-radius: 4px;
+    border: none;
+    height: 35px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    color: #AAAAAA;
+    padding: 10px;
+    background-color: F8F9FA;
+    border-right: 1px solid #ced4da;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-row .col select {
+    height: 35px;
+}
+
+hr {
+    color: rgb(231, 222, 222)
+}
+
+.payment-group {
+    display: flex;
+    gap: 10px;
+}
+
+.cvv-group {
+    display: flex;
+    gap: 10px;
+
+}
+
+.huhu {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 640px;
+}
