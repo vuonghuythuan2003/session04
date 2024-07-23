@@ -46,12 +46,21 @@ h1 {
     margin: 0;
 }
 
-span {
-    color: #AAAAAA;
-    padding: 10px;
-    background-color: F8F9FA;
-    border-right: 1px solid #ced4da;
+.inline-field {
+    display: flex;
+    align-items: center;
 }
+
+.inline-field span {
+    margin-right: 5px;
+}
+
+.inline-field input {
+    display: inline-block;
+    width: calc(100% - 20px);
+    
+}
+
 
 .form-row {
     display: flex;

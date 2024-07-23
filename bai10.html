@@ -25,26 +25,28 @@
             <div class="username">
                 <div class="name-field">
                     <label>Username</label>
-                    <span>@</span>
-                    <input type="text" name="name" placeholder="Username">
+                    <div class="inline-field">
+                        <span>@</span>
+                        <input type="text" name="username" placeholder="Username">
+                    </div>
                 </div>
             </div>
             <div class="email">
                 <div class="name-field">
                     <label>Email <span class="mauxam">(Optional)</span> </label>
-                    <input type="text" name="name" placeholder="you@example.com">
+                    <input type="text" name="email" placeholder="you@example.com">
                 </div>
             </div>
             <div class="address">
                 <div class="name-field">
                     <label>Address</label>
-                    <input type="text" name="name" placeholder="1234 Main St">
+                    <input type="text" name="address" placeholder="1234 Main St">
                 </div>
             </div>
             <div class="address">
                 <div class="name-field">
                     <label>Address2 <span class="mauxam">(Optional)</span> </label>
-                    <input type="text" name="name" placeholder="Apartment or suite">
+                    <input type="text" name="address2" placeholder="Apartment or suite">
                 </div>
             </div>
             <div class="form-row">
@@ -81,7 +83,6 @@
             <hr>
             <h1>Payment</h1>
             <section class="payment-group">
-
                 <div class="payment col">
                     <label>
                         <input type="radio"> Credit card
@@ -101,29 +102,27 @@
             <div class="nameon">
                 <div class="name-field">
                     <label>Name on card</label>
-                    <input type="text" name="name">
+                    <input type="text" name="cardname">
                 </div>
                 <div class="name-field">
                     <label>Credit card number</label>
-                    <input type="text" name="lastname">
+                    <input type="text" name="cardnumber">
                 </div>
-
             </div>
             <span>Full name as displayed on card</span>
             <section class="cvv-group">
                 <div class="huhu">
                     <label>Expiration</label>
-                    <input type="text">
+                    <input type="text" name="expiration">
                 </div>
                 <div class="huhu">
                     <label>CVV</label>
-                    <input type="text">
+                    <input type="text" name="cvv">
                 </div>
             </section>
             <br>
             <hr>
             <button type="submit" style="color:aliceblue">Continue to checkout</button>
-
         </div>
     </form>
 </body>
